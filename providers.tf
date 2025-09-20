@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terraform-elastic-cashe-redis"
+    bucket = "tf-elastic-cache-redis"
     key    = "dev/terraforma.tfstate"
     region = "us-east-1"
   }
